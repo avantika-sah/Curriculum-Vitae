@@ -9,15 +9,15 @@
         <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="styles.css">
         <script src="https://unpkg.com/feather-icons"></script>
     </head>
     <body>
-        <div class="container" style="padding: 25px 35px; height: 100%;">
+        <div class="container main" style="padding: 8px 16px; height: 100%;">
             <div class="columns" style="height: 100%;">
                 <div id="left" class="column col-md-4 col-3" style="background: #c3b0a9">
-                    <img id="profile" src="" alt="">
+                    <div id="profile"></div>
                     <div id="contacts">
                         <p class="heading-2">Contact</p>
                         <div class="contacts-item">
@@ -30,18 +30,22 @@
                         </div>
                         <div class="contacts-item">
                             <i data-feather="map-pin" class="icon icon-2x"></i>
-                            <p>C108 Vista, Ghaziabad</p>
+                            <p>Ghaziabad</p>
                         </div>
                     </div>
                     <div id="education">
-                        <p class="heading-2">Education</p>
+                        <p class="heading-2">Academic Qualifications</p>
                         <div class="educations-item">
                             <p class="uni">IIT Kharagpur</p>
-                            <p class="sub">BTech / 2006 - 2010</p>
+                            <p class="sub">BTech / 2020 - 2024</p>
+                        </div>
+                        <div class="educations-item">
+                            <p class="uni">Bhagirath Public School</p>
+                            <p class="sub">Completed in 2019</p>
                         </div>
                         <div class="educations-item">
                             <p class="uni">Delhi Public School Rajnagar</p>
-                            <p class="sub">High School / 2003 - 2006</p>
+                            <p class="sub">Completed in 2017</p>
                         </div>
                     </div>
                 </div>
@@ -49,31 +53,43 @@
                     <h1>Avantika Sahlot</h1>
                     <h2>SDE</h2>
                     <div id="coursework" style="width: 100%">
-                        <h3>Coursework Info</h3>
-                        <hr style="width: 100%;">
-                        <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-                        Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
-                    </div>
-                    <div id="skills" style="width: 100%;">
-                        <h3>Skills</h3>
+                        <h3>Coursework Information</h3>
                         <hr style="width: 100%;">
                         <ul>
-                            <li>HTML/CSS</li>
-                            <li>Javascript</li>
-                            <li>C/C++</li>
-                            <li>Photoshop</li>
+                            <li>Programming And Data Structures Theory (CS10003)</li>
+                            <li>Programming And Data Structures Laboratory (CS19003)</li>
+                            <li>Advanced Calculus (MA11003)</li>
+                            <li>Probability And Statistics (MA20205)</li>
+                            <li>Linear Algebra, Numerical And Complex Analysis (MA11004)</li>
+                        </ul>
+                    </div>
+                    <div id="skills" style="width: 100%;">
+                        <h3>Skills And Expertise</h3>
+                        <hr style="width: 100%;">
+                        <ul>
+                            <li>Languages: C/C++, Python, HTML5, CSS, Javascript</li>
+                            <li>Libraries: STL</li>
+                            <li>Software: Adobe After Effects, Photoshop, Illustrator</li>
                         </ul>
                     </div>
                     <div id="projects" style="width: 100%">
                         <h3>Projects</h3>
                         <hr style="width: 100%;">
                         <div class="project">
-                            <h4>Game Project</h4>
-                            <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
+                            <div class="course-name">
+                                <h4>Two Player Game</h4>
+                                <p class="text-large">Self Project</p>
+                            </div>
+                            <p>A two player game written with Python where each player takes turn to pick matches from a set number of matches. The last player to pick the match wins.</p>
+                            <p>Github link: <a href="https://github.com/avantika-sah/Matches-Game">/avantika-sah/Matches-Game</a></p>
                         </div>
                         <div class="project">
-                            <h4>CV Project</h4>
-                            <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
+                            <div class="course-name">
+                                <h4>A webpage made with HTML5 and CSS</h4>
+                                <p class="text-large">Self Project</p>
+                            </div>
+                        <p>Curriculum Vitae made using HTML5 and Spectre.css CSS framework. It uses Feather icons.</p>
+                            <p>Github link: <a href="https://github.com/avantika-sah/Curriculum-Vitae">/avantika-sah/Curriculum-Vitae</a></p>
                         </div>
                     </div>
                 </div>
